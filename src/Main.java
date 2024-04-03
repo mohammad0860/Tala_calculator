@@ -13,7 +13,7 @@ public class Main {
         if (khadamt == 1){
             System.out.println("نرخ طلا را وارد کنید:");
             Scanner scanner1 = new Scanner(System.in);
-            int nerkh = scanner.nextInt();
+            int nerkh = scanner1.nextInt();
 
             System.out.println("وزن خالص طلا را وارد کنید:");
             Scanner scanner2 = new Scanner(System.in);
