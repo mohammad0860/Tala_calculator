@@ -57,8 +57,12 @@ public class Main {
             Scanner scanner2 = new Scanner(System.in);
             float vazn = scanner2.nextFloat();
 
+            System.out.println("درصد سود طلا فروش را وارد کنید:");
+            Scanner scanner3 = new Scanner(System.in);
+            float darsad = scanner3.nextFloat();
+
             System.out.println("قیمت نهایی طلا:");
-            float qimat = (740 * vazn * nerkh) / 750;
+            float qimat = vazn * nerkh / darsad;
             System.out.println(df.format(qimat));
         } else System.out.println("لطفا عدد را بدستی وارد کنید");
     }
